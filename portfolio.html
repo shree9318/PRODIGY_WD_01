@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Prodigy Infotech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Prodigy Infotech</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="content">
+        <section class="hero">
+            <h1>Our Portfolio</h1>
+            <p class="hero-subtitle">Showcasing Excellence in Digital Innovation</p>
+        </section>
+
+        <section class="portfolio-intro">
+            <div class="container">
+                <p class="intro-text">Explore our latest projects and discover how we've helped businesses transform their digital presence with cutting-edge solutions.</p>
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="cloud">Cloud Solutions</button>
+                    <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-grid">
+            <div class="container">
+                <div class="projects-grid">
+                    <div class="project-item" data-category="web">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <svg width="300" height="200" viewBox="0 0 300 200" fill="none">
+                                    <rect width="300" height="200" fill="rgba(255,255,255,0.1)"/>
+                                    <text x="150" y="100" text-anchor="middle" fill="white" font-size="16">E-Commerce Platform</text>
+                                </svg>
+                            </div>
+                            <div class="project-overlay">
+                                <h3>E-Commerce Platform</h3>
+                                <p>Modern online shopping experience with AI-powered recommendations</p>
+                                <a href="#" class="project-link">View Case Study →</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Platform</h3>
+                            <p class="project-category">Web Development</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-category="mobile">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <svg width="300" height="200" viewBox="0 0 300 200" fill="none">
+                                    <rect width="300" height="200" fill="rgba(255,255,255,0.1)"/>
+                                    <text x="150" y="100" text-anchor="middle" fill="white" font-size="16">Fitness Tracking App</text>
+                                </svg>
+                            </div>
+                            <div class="project-overlay">
+                                <h3>Fitness Tracking App</h3>
+                                <p>Health and wellness application with real-time analytics</p>
+                                <a href="#" class="project-link">View Case Study →</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Fitness Tracking App</h3>
+                            <p class="project-category">Mobile Development</p>
+                            <div class="project-tags">
+                                <span class="tag">React Native</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">HealthKit</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-category="cloud">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <svg width="300" height="200" viewBox="0 0 300 200" fill="none">
+                                    <rect width="300" height="200" fill="rgba(255,255,255,0.1)"/>
+                                    <text x="150" y="100" text-anchor="middle" fill="white" font-size="16">Cloud Migration</text>
+                                </svg>
+                            </div>
+                            <div class="project-overlay">
+                                <h3>Enterprise Cloud Migration</h3>
+                                <p>Large-scale infrastructure migration to AWS with 99.9% uptime</p>
+                                <a href="#" class="project-link">View Case Study →</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Enterprise Cloud Migration</h3>
+                            <p class="project-category">Cloud Solutions</p>
+                            <div class="project-tags">
+                                <span class="tag">AWS</span>
+                                <span class="tag">Kubernetes</span>
+                                <span class="tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-category="design">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <svg width="300" height="200" viewBox="0 0 300 200" fill="none">
+                                    <rect width="300" height="200" fill="rgba(255,255,255,0.1)"/>
+                                    <text x="150" y="100" text-anchor="middle" fill="white" font-size="16">Banking App Redesign</text>
+                                </svg>
+                            </div>
+                            <div class="project-overlay">
+                                <h3>Banking App Redesign</h3>
+                                <p>Complete UX overhaul for mobile banking application</p>
+                                <a href="#" class="project-link">View Case Study →</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Banking App Redesign</h3>
+                            <p class="project-category">UI/UX Design</p>
+                            <div class="project-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">User Research</span>
+                                <span class="tag">Prototyping</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-category="web">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <svg width="300" height="200" viewBox="0 0 300 200" fill="none">
+                                    <rect width="300" height="200" fill="rgba(255,255,255,0.1)"/>
+                                    <text x="150" y="100" text-anchor="middle" fill="white" font-size="16">Learning Management System</text>
+                                </svg>
+                            </div>
+                            <div class="project-overlay">
+                                <h3>Learning Management System</h3>
+                                <p>Educational platform with video streaming and interactive quizzes</p>
+                                <a href="#" class="project-link">View Case Study →</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Learning Management System</h3>
+                            <p class="project-category">Web Development</p>
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">Django</span>
+                                <span class="tag">WebRTC</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-category="mobile">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <svg width="300" height="200" viewBox="0 0 300 200" fill="none">
+                                    <rect width="300" height="200" fill="rgba(255,255,255,0.1)"/>
+                                    <text x="150" y="100" text-anchor="middle" fill="white" font-size="16">Food Delivery App</text>
+                                </svg>
+                            </div>
+                            <div class="project-overlay">
+                                <h3>Food Delivery Platform</h3>
+                                <p>On-demand food delivery with real-time tracking</p>
+                                <a href="#" class="project-link">View Case Study →</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Food Delivery Platform</h3>
+                            <p class="project-category">Mobile Development</p>
+                            <div class="project-tags">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">Google Maps</span>
+                                <span class="tag">Stripe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-study">
+            <div class="container">
+                <h2 class="section-title">Featured Case Study</h2>
+                <div class="case-study-content">
+                    <div class="case-study-image">
+                        <div class="case-study-placeholder">
+                            <svg width="400" height="300" viewBox="0 0 400 300" fill="none">
+                                <rect width="400" height="300" fill="rgba(255,255,255,0.1)"/>
+                                <text x="200" y="150" text-anchor="middle" fill="white" font-size="18">E-Commerce Success Story</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="case-study-text">
+                        <h3>Revolutionizing E-Commerce with AI</h3>
+                        <p class="case-study-client">Client: Global Retail Corporation</p>
+                        <p>We developed a cutting-edge e-commerce platform that increased conversion rates by 45% and reduced cart abandonment by 30%. The solution features AI-powered product recommendations, personalized user experiences, and seamless omnichannel integration.</p>
+                        <div class="case-study-results">
+                            <div class="result">
+                                <h4>45%</h4>
+                                <p>Conversion Increase</p>
+                            </div>
+                            <div class="result">
+                                <h4>30%</h4>
+                                <p>Cart Abandonment Reduction</p>
+                            </div>
+                            <div class="result">
+                                <h4>2M+</h4>
+                                <p>Active Users</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">Read Full Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"Prodigy Infotech transformed our online presence completely. Their attention to detail and innovative solutions exceeded our expectations."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                    <circle cx="25" cy="25" r="25" fill="rgba(255,255,255,0.2)"/>
+                                    <circle cx="25" cy="20" r="8" fill="rgba(255,255,255,0.3)"/>
+                                    <ellipse cx="25" cy="35" rx="12" ry="8" fill="rgba(255,255,255,0.3)"/>
+                                </svg>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Thompson</h4>
+                                <p>CEO, TechCorp</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"The mobile app they developed for us has revolutionized how we engage with our customers. Highly recommended!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                    <circle cx="25" cy="25" r="25" fill="rgba(255,255,255,0.2)"/>
+                                    <circle cx="25" cy="20" r="8" fill="rgba(255,255,255,0.3)"/>
+                                    <ellipse cx="25" cy="35" rx="12" ry="8" fill="rgba(255,255,255,0.3)"/>
+                                </svg>
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>CTO, StartupHub</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's create something amazing together. Contact us to discuss your next big idea.</p>
+                <a href="contact.html" class="btn btn-primary btn-large">Get In Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
