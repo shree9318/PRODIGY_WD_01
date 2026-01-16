@@ -1,116 +1,64 @@
-# Stopwatch Application
+# PRODIGY_WD_01 - Prodigy Infotech Website
 
-A modern, responsive stopwatch web application built with HTML, CSS, and JavaScript. Features a WhatsApp-inspired design theme with full timer functionality and lap recording capabilities.
+A modern, responsive corporate website for Prodigy Infotech, showcasing their services, portfolio, and company information.
 
-## Features
+## 🚀 Features
 
-- ⏱️ **Timer Functionality**: Start, pause, resume, and reset stopwatch
-- 🏁 **Lap Recording**: Record and display lap times in ascending order
-- ⌨️ **Keyboard Shortcuts**: 
-  - `Space` - Start/Pause/Resume
-  - `R` - Reset stopwatch
-  - `L` - Record lap (when running)
-- 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
-- 🎨 **WhatsApp Theme**: Clean, modern design with WhatsApp-inspired colors
-- 🔄 **Auto-pause**: Automatically pauses timer when tab is hidden
+- **Responsive Design**: Fully responsive layout that works seamlessly across all devices
+- **Interactive Navigation**: Smooth navigation with mobile hamburger menu
+- **Modern UI/UX**: Clean, professional design with smooth animations and transitions
+- **Multiple Pages**: 
+  - Home page with hero section
+  - About page with company information
+  - Services page showcasing offerings
+  - Portfolio page displaying work samples
+  - Contact page with contact form
 
-## File Structure
+## 🛠️ Technologies Used
+
+- **HTML5**: Semantic markup and modern HTML features
+- **CSS3**: Advanced styling with flexbox/grid, animations, and responsive design
+- **JavaScript**: Interactive features and dynamic functionality
+
+## 📁 Project Structure
 
 ```
-PRODIGY_WD_02/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styling and design
+PRODIGY_WD_01/
+├── index.html          # Home page
+├── about.html          # About page
+├── services.html       # Services page
+├── portfolio.html      # Portfolio page
+├── contact.html        # Contact page
+├── styles.css          # Main stylesheet
 ├── script.js           # JavaScript functionality
-├── README.md           # This file
-└── .vscode/
-    └── launch.json     # VS Code debugging configuration
+└── README.md           # This file
 ```
 
-## Getting Started
+## 🎨 Design Highlights
 
-### Method 1: Direct Opening
-1. Open `index.html` in your web browser
-2. The stopwatch will load and be ready to use
+- **Color Scheme**: Professional color palette suitable for tech company
+- **Typography**: Clean, readable fonts optimized for web
+- **Animations**: Smooth hover effects and page transitions
+- **Layout**: Grid and flexbox-based responsive layout
+- **Navigation**: Sticky navigation bar with mobile-friendly hamburger menu
 
-### Method 2: Live Server (Recommended)
-1. Install the **Live Server** extension in VS Code
-2. Right-click `index.html` and select "Open with Live Server"
-3. The app will open at `http://localhost:5500`
+## 📱 Responsive Features
 
-### Method 3: Local Server
-```bash
-# Using Python
-python -m http.server 8000
+- Mobile-first design approach
+- Breakpoints for tablets and mobile devices
+- Touch-friendly interface elements
+- Optimized images and media queries
 
-# Using Node.js
-npx http-server
+## 🚀 Getting Started
 
-# Then open http://localhost:8000
-```
+1. Clone or download this repository
+2. Open `index.html` in your preferred web browser
+3. Navigate through different pages using the navigation menu
 
-## Usage
+## 📧 Contact
 
-1. **Start Timer**: Click "Start" button or press `Space`
-2. **Record Laps**: Click "Lap" button or press `L` while timer is running
-3. **Pause/Resume**: Click "Pause"/"Resume" button or press `Space`
-4. **Reset**: Click "Reset" button or press `R`
-5. **View Laps**: Lap times appear below the timer in chronological order
-
-## Design Features
-
-- **Color Scheme**: WhatsApp-inspired green theme
-- **Typography**: Clean, modern fonts with proper hierarchy
-- **Animations**: Smooth hover effects and transitions
-- **Accessibility**: High contrast and keyboard navigation support
-- **Mobile Responsive**: Optimized for all screen sizes
-
-## Technical Details
-
-### Technologies Used
-- **HTML5**: Semantic markup and structure
-- **CSS3**: Modern styling with flexbox and transitions
-- **JavaScript ES6+**: Modern JavaScript features and best practices
-
-### Key Functions
-- `formatTime()`: Converts milliseconds to MM:SS.MS format
-- `updateDisplay()`: Updates the timer display every 10ms
-- `toggleStartPause()`: Handles start/pause/resume functionality
-- `recordLap()`: Records and displays lap times
-- `resetStopwatch()`: Resets timer and clears lap data
-
-### Browser Compatibility
-- Chrome 60+
-- Firefox 55+
-- Safari 12+
-- Edge 79+
-
-## Debugging
-
-The project includes VS Code debugging configuration:
-
-1. Open VS Code
-2. Go to Debug panel (Ctrl+Shift+D)
-3. Select "Launch Chrome against localhost" configuration
-4. Set breakpoints in `script.js`
-5. Start debugging session
-
-## Contributing
-
-Feel free to contribute to this project by:
-1. Forking the repository
-2. Creating a feature branch
-3. Making your changes
-4. Testing thoroughly
-5. Submitting a pull request
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Author
-
-Created as part of the Prodigy Infotech internship program - Task WD_02
+For any inquiries about this project or Prodigy Infotech services, please visit the contact page or reach out through the provided contact information.
 
 ---
 
-**Enjoy using the stopwatch! 🚀**
+**Note**: This is a static website project. No build process or server setup required - simply open the HTML files in a web browser to view the website.
